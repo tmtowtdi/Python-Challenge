@@ -1,22 +1,5 @@
 
-import re
-
-class State():
-    def __init__(self):
-        self.reset()
-
-    def reset(self):
-        self.start_tag_cnt = 0
-        self.end_tag_cnt = 0
-        self.state = 1
-        self.cand_letter = ''
-
-    def reset_found(self):
-        self.reset()
-        self.start_tag_cnt = 1
-
 def get_pagestring():
-    #return "aBCDzEFGhIJKzLMNo"
     mystring = """
 kAewtloYgcFQaJNhHVGxXDiQmzjfcpYbzxlWrVcqsmUbCunkfxZWDZjUZMiGqhRRiUvGmYmvnJIHEmbT
 MUKLECKdCthezSYBpIElRnZugFAxDRtQPpyeCBgBfaRVvvguRXLvkAdLOeCKxsDUvBBCwdpMMWmuELeG
@@ -1269,8 +1252,5 @@ dCdFLtBQPtFQuCdKOrpndJNUFQIDSbetUKylhSUjcDVtbiQrWMRQhAwGUZyPneCGUjGBBTkLqxLAXXtB
 KfErkDaWMFZZeuqDmXKJEGHyToPUhPphfVhgUZgbIuRAtWnroImpJKqqmEZqeNQCKzhjIkKQHURWLXFw
 PBuijeoTSpsVLaOGuLVjMZXkBvVXwUuHfBihziiavGSYofPNeKsTXruMUumRRPQJzvSzJkKbtSipiqBd
     """
-    #return mystring.replace("\n", "")
     return mystring
-
-
 
