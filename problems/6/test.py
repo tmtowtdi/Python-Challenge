@@ -73,7 +73,12 @@
  **************************************************************
 
 So on to http://www.pythonchallenge.com/pc/def/hockey.html
+    This URL contains only the text:
+        it's in the air. look at the letters. 
 
+The letters used to make up the word "hockey" above spell out 
+"oxygen".  So actually on to 
+    http://www.pythonchallenge.com/pc/def/oxygen.html
 """
 
 import pythonchallenge
